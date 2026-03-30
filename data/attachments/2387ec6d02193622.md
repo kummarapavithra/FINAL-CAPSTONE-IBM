@@ -1,0 +1,288 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "Wanderlust" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img [ref=e9]
+          - generic [ref=e11]: Wanderlust
+        - navigation [ref=e12]:
+          - link "Flights" [ref=e13] [cursor=pointer]:
+            - /url: /flights
+            - img [ref=e14]
+            - text: Flights
+          - link "Hotels" [ref=e16] [cursor=pointer]:
+            - /url: /hotels
+            - img [ref=e17]
+            - text: Hotels
+          - link "Cars" [ref=e20] [cursor=pointer]:
+            - /url: /cars
+            - img [ref=e21]
+            - text: Cars
+          - link "Destinations" [ref=e24] [cursor=pointer]:
+            - /url: /destinations
+            - img [ref=e25]
+            - text: Destinations
+          - link "My Bookings" [ref=e28] [cursor=pointer]:
+            - /url: /bookings
+            - img [ref=e29]
+            - text: My Bookings
+          - generic [ref=e32]:
+            - generic [ref=e33]:
+              - img [ref=e34]
+              - text: pavithra
+            - button "Sign Out" [ref=e38]:
+              - img [ref=e39]
+    - main [ref=e42]:
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - heading "Rental Cars" [level=1] [ref=e46]:
+            - img [ref=e47]
+            - text: Rental Cars
+          - generic [ref=e50]:
+            - generic [ref=e51]:
+              - generic [ref=e52]: Pick-up Location
+              - generic [ref=e53]:
+                - img [ref=e54]
+                - textbox "City or Airport" [ref=e57]: Dübai!
+            - generic [ref=e58]:
+              - generic [ref=e59]: Pick-up Date
+              - textbox [ref=e60]: 2026-03-29
+            - generic [ref=e61]:
+              - generic [ref=e62]: Return Date
+              - textbox [ref=e63]: 2026-04-01
+            - button "Search" [active] [ref=e64]
+        - generic [ref=e65]:
+          - heading "Available Vehicles (8)" [level=2] [ref=e66]
+          - generic [ref=e67]:
+            - generic [ref=e68]:
+              - generic [ref=e69]:
+                - img "Toyota Fortuner" [ref=e70]
+                - generic [ref=e71]: SUV
+              - generic [ref=e72]:
+                - heading "Toyota Fortuner" [level=3] [ref=e73]
+                - paragraph [ref=e74]: Toyota Fortuner 2024
+                - generic [ref=e75]:
+                  - generic [ref=e76]:
+                    - img [ref=e77]
+                    - text: 7 Seats
+                  - generic [ref=e82]:
+                    - img [ref=e83]
+                    - text: Automatic
+                - generic [ref=e94]:
+                  - generic [ref=e95]: GPS
+                  - generic [ref=e96]: AC
+                  - generic [ref=e97]: Bluetooth
+                  - generic [ref=e98]: 4WD
+                  - generic [ref=e99]: Cruise Control
+                - generic [ref=e100]:
+                  - generic [ref=e101]:
+                    - paragraph [ref=e102]: $4500
+                    - paragraph [ref=e103]: / day
+                  - button "Book" [ref=e104]
+            - generic [ref=e105]:
+              - generic [ref=e106]:
+                - img "BMW 5 Series" [ref=e107]
+                - generic [ref=e108]: Sedan
+              - generic [ref=e109]:
+                - heading "BMW 5 Series" [level=3] [ref=e110]
+                - paragraph [ref=e111]: BMW 530i 2024
+                - generic [ref=e112]:
+                  - generic [ref=e113]:
+                    - img [ref=e114]
+                    - text: 5 Seats
+                  - generic [ref=e119]:
+                    - img [ref=e120]
+                    - text: Automatic
+                - generic [ref=e131]:
+                  - generic [ref=e132]: GPS
+                  - generic [ref=e133]: AC
+                  - generic [ref=e134]: Leather Seats
+                  - generic [ref=e135]: Sunroof
+                  - generic [ref=e136]: Sport Mode
+                - generic [ref=e137]:
+                  - generic [ref=e138]:
+                    - paragraph [ref=e139]: $6500
+                    - paragraph [ref=e140]: / day
+                  - button "Book" [ref=e141]
+            - generic [ref=e142]:
+              - generic [ref=e143]:
+                - img "Mercedes GLE" [ref=e144]
+                - generic [ref=e145]: Luxury SUV
+              - generic [ref=e146]:
+                - heading "Mercedes GLE" [level=3] [ref=e147]
+                - paragraph [ref=e148]: Mercedes GLE 2024
+                - generic [ref=e149]:
+                  - generic [ref=e150]:
+                    - img [ref=e151]
+                    - text: 7 Seats
+                  - generic [ref=e156]:
+                    - img [ref=e157]
+                    - text: Automatic
+                - generic [ref=e168]:
+                  - generic [ref=e169]: GPS
+                  - generic [ref=e170]: AC
+                  - generic [ref=e171]: Panoramic Roof
+                  - generic [ref=e172]: 360 Camera
+                  - generic [ref=e173]: Massage Seats
+                - generic [ref=e174]:
+                  - generic [ref=e175]:
+                    - paragraph [ref=e176]: $9500
+                    - paragraph [ref=e177]: / day
+                  - button "Book" [ref=e178]
+            - generic [ref=e179]:
+              - generic [ref=e180]:
+                - img "Hyundai Creta" [ref=e181]
+                - generic [ref=e182]: Compact SUV
+              - generic [ref=e183]:
+                - heading "Hyundai Creta" [level=3] [ref=e184]
+                - paragraph [ref=e185]: Hyundai Creta 2024
+                - generic [ref=e186]:
+                  - generic [ref=e187]:
+                    - img [ref=e188]
+                    - text: 5 Seats
+                  - generic [ref=e193]:
+                    - img [ref=e194]
+                    - text: Automatic
+                - generic [ref=e205]:
+                  - generic [ref=e206]: GPS
+                  - generic [ref=e207]: AC
+                  - generic [ref=e208]: Bluetooth
+                  - generic [ref=e209]: Reverse Camera
+                - generic [ref=e210]:
+                  - generic [ref=e211]:
+                    - paragraph [ref=e212]: $2800
+                    - paragraph [ref=e213]: / day
+                  - button "Book" [ref=e214]
+            - generic [ref=e215]:
+              - generic [ref=e216]:
+                - img "Tesla Model 3" [ref=e217]
+                - generic [ref=e218]: Electric Sedan
+              - generic [ref=e219]:
+                - heading "Tesla Model 3" [level=3] [ref=e220]
+                - paragraph [ref=e221]: Tesla Model 3 2024
+                - generic [ref=e222]:
+                  - generic [ref=e223]:
+                    - img [ref=e224]
+                    - text: 5 Seats
+                  - generic [ref=e229]:
+                    - img [ref=e230]
+                    - text: Automatic
+                - generic [ref=e241]:
+                  - generic [ref=e242]: Autopilot
+                  - generic [ref=e243]: AC
+                  - generic [ref=e244]: 360 Camera
+                  - generic [ref=e245]: OTA Updates
+                  - generic [ref=e246]: Supercharger
+                - generic [ref=e247]:
+                  - generic [ref=e248]:
+                    - paragraph [ref=e249]: $7500
+                    - paragraph [ref=e250]: / day
+                  - button "Book" [ref=e251]
+            - generic [ref=e252]:
+              - generic [ref=e253]:
+                - img "Range Rover Sport" [ref=e254]
+                - generic [ref=e255]: Premium SUV
+              - generic [ref=e256]:
+                - heading "Range Rover Sport" [level=3] [ref=e257]
+                - paragraph [ref=e258]: Range Rover Sport 2024
+                - generic [ref=e259]:
+                  - generic [ref=e260]:
+                    - img [ref=e261]
+                    - text: 5 Seats
+                  - generic [ref=e266]:
+                    - img [ref=e267]
+                    - text: Automatic
+                - generic [ref=e278]:
+                  - generic [ref=e279]: GPS
+                  - generic [ref=e280]: AC
+                  - generic [ref=e281]: Air Suspension
+                  - generic [ref=e282]: 360 Camera
+                  - generic [ref=e283]: Heated Seats
+                - generic [ref=e284]:
+                  - generic [ref=e285]:
+                    - paragraph [ref=e286]: $12000
+                    - paragraph [ref=e287]: / day
+                  - button "Book" [ref=e288]
+            - generic [ref=e289]:
+              - generic [ref=e290]:
+                - img "Maruti Swift" [ref=e291]
+                - generic [ref=e292]: Hatchback
+              - generic [ref=e293]:
+                - heading "Maruti Swift" [level=3] [ref=e294]
+                - paragraph [ref=e295]: Maruti Swift 2024
+                - generic [ref=e296]:
+                  - generic [ref=e297]:
+                    - img [ref=e298]
+                    - text: 5 Seats
+                  - generic [ref=e303]:
+                    - img [ref=e304]
+                    - text: Manual
+                - generic [ref=e315]:
+                  - generic [ref=e316]: AC
+                  - generic [ref=e317]: Music System
+                  - generic [ref=e318]: Fuel Efficient
+                - generic [ref=e319]:
+                  - generic [ref=e320]:
+                    - paragraph [ref=e321]: $1200
+                    - paragraph [ref=e322]: / day
+                  - button "Book" [ref=e323]
+            - generic [ref=e324]:
+              - generic [ref=e325]:
+                - img "Audi Q7" [ref=e326]
+                - generic [ref=e327]: Luxury SUV
+              - generic [ref=e328]:
+                - heading "Audi Q7" [level=3] [ref=e329]
+                - paragraph [ref=e330]: Audi Q7 2024
+                - generic [ref=e331]:
+                  - generic [ref=e332]:
+                    - img [ref=e333]
+                    - text: 7 Seats
+                  - generic [ref=e338]:
+                    - img [ref=e339]
+                    - text: Automatic
+                - generic [ref=e350]:
+                  - generic [ref=e351]: GPS
+                  - generic [ref=e352]: Bose Sound
+                  - generic [ref=e353]: Panoramic Sunroof
+                  - generic [ref=e354]: Air Suspension
+                  - generic [ref=e355]: Matrix LED
+                - generic [ref=e356]:
+                  - generic [ref=e357]:
+                    - paragraph [ref=e358]: $11000
+                    - paragraph [ref=e359]: / day
+                  - button "Book" [ref=e360]
+    - contentinfo [ref=e361]:
+      - generic [ref=e362]:
+        - generic [ref=e363]:
+          - generic [ref=e364]:
+            - img [ref=e366]
+            - generic [ref=e368]: Wanderlust
+          - paragraph [ref=e369]: Discover your next adventure with our beautiful, minimal travel booking experience. The world is waiting for you.
+        - generic [ref=e370]:
+          - heading "Explore" [level=4] [ref=e371]
+          - list [ref=e372]:
+            - listitem [ref=e373]:
+              - link "Flights" [ref=e374] [cursor=pointer]:
+                - /url: /flights
+            - listitem [ref=e375]:
+              - link "Hotels" [ref=e376] [cursor=pointer]:
+                - /url: /hotels
+            - listitem [ref=e377]:
+              - link "Cars" [ref=e378] [cursor=pointer]:
+                - /url: /cars
+        - generic [ref=e379]:
+          - heading "Account" [level=4] [ref=e380]
+          - list [ref=e381]:
+            - listitem [ref=e382]:
+              - link "My Bookings" [ref=e383] [cursor=pointer]:
+                - /url: /bookings
+            - listitem [ref=e384]:
+              - link "Support" [ref=e385] [cursor=pointer]:
+                - /url: "#"
+  - region "Notifications (F8)":
+    - list
+```
