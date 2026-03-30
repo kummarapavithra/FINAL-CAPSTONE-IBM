@@ -17,9 +17,7 @@ Objective
 
 
 ->Functional Requirements
-
 The system should allow users to:
-
 -Register and log in
 -Search for travel destinations
 -Create travel itineraries
